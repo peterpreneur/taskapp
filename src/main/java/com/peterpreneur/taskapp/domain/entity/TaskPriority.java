@@ -9,7 +9,8 @@ package com.peterpreneur.taskapp.domain.entity;
  *
  * @author peter
  */
-public enum TaskStatus {
-    OPEN,
-    COMPLETE
+public enum TaskPriority {
+    LOW,
+    MEDIUM,
+    HIGH
 }
